@@ -1,2 +1,2 @@
 # 11
-Help your selves with my premade solutions of python questions
+Help yourselves with my premade solutions of python questions
