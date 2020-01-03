@@ -1,14 +1,4 @@
-q = int(input("Enter a number : "))
-w = int(input("Enter a number : "))
-e = int(input("Enter a number : "))
-r = int(input("Enter a number : "))
-t = int(input("Enter a number : "))
-y = int(input("Enter a number : "))
-u = int(input("Enter a number : "))
-i = int(input("Enter a number : "))
-o = int(input("Enter a number : "))
-p = int(input("Enter a number : "))
-List1 = [q, w, e, r, t, y, u, i, o, p]
+List1 = eval(input("Enter a list : "))
 sum_odd = 0
 sum_even = 0
 maximum = max(List1)

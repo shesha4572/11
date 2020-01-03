@@ -13,11 +13,19 @@ def no_num(s):
 
 def no_alpha(s):
     alpha = 0
+    upp = 0
+    low = 0
     for i in range(0, len(s)):
         if s[i].isalpha():
             alpha += 1
-    print("The number of alphabets in the string is " ,alpha)
+            if "A" <= s[i] <= "Z":
+                upp += 1
+            else:
+                low += 1
 
+    print("The number of alphabets in the string is ", alpha)
+    print("The number of uppercase alphabets in the string is ", upp)
+    print("The number of lowercase alphabets in the string is ", low)
 
 
 def no_special(s):
