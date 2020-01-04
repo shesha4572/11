@@ -1,0 +1,8 @@
+lst = eval(input("Enter a list of numbers : "))
+maximum = max(lst)
+max_index = lst.index(maximum)
+minimum = min(lst)
+min_index = lst.index(minimum)
+print("Entered list is :" , lst)
+print("Maximum value in list is:" , maximum, "at index" , max_index)
+print("Minimum value in list is:" , minimum, "at index" , min_index)
