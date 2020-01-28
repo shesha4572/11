@@ -7,7 +7,7 @@ total = sp+gst
 print("Selling Price            :", sp)
 print("GST@" + str(gst_rate)+ "% :" )
 print("CSGT                     :" , cgst)
-print("SGST                     :" , sgst_rate)
+print("SGST                     :" , sgst)
 print("                         :" , gst)
 print("Total                    :" , total)
 
