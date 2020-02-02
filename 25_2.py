@@ -19,5 +19,3 @@ p = int(input("Enter employee's phone number : "))
 s = float(input("Enter the basic salary : "))
 net_s = net_salary(s)
 display(n, a, p, s, net_s)
-
-

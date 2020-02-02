@@ -51,8 +51,3 @@ no_words(str_user)
 no_num(str_user)
 no_alpha(str_user)
 no_special(str_user)
-
-
-
-
-
